@@ -1,0 +1,77 @@
+body{
+  font-family: Helvetica, sans-serif;
+  width: 80%;
+  margin: 0% auto;
+}
+
+h1{
+  font-size: 72pt;
+  text-transform: uppercase;
+  letter-spacing: 0.8em;
+  width: 70%;
+  margin: 1% 0% 0% 0%;
+}
+
+h2{
+  font-size: 36pt;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 22%;
+  margin: 2% 0%;
+  border: 2px  solid #aaa;
+}
+
+h3{
+  font-size: 24pt;
+}
+
+p{
+  font-family: courier;
+  font-size: 14pt;
+  line-height: 1.5em;
+}
+
+footer{
+  word-spacing:1.5em;
+}
+
+a{
+  color: white;
+  background-color: grey;
+  text-decoration: none;
+}
+
+a:hover{
+  color:black;
+  background-color: lightgrey;
+}
+
+abbr{
+  text-decoration: none;
+  color: grey;
+}
+
+abbr:hover{
+  text-decoration: underline;
+}
+
+a>abbr{
+  color:white;
+}
+
+.summary, .preamble, .explanation, .participation, .benefits, .requirements{
+  position: relative;
+  float: right;
+  width: 75%;
+  Top: -30vh;
+}
+
+.summary{
+  position: relative;
+  top: -72vh;
+}
+
+.preamble{
+  position: relative;
+  top: -32.5vh;
+}
